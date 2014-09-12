@@ -43,12 +43,7 @@ public class Hangman {
      * @param secretWord the word to be guessed
      */
     void setSecretWord(String secretWord) {
-        this.secretWord = secretWord;
 
-        this.correctLetters.clear();
-        for(char c : secretWord.toCharArray()) {
-            this.correctLetters.add('_');
-        }
     }
 
     /**
