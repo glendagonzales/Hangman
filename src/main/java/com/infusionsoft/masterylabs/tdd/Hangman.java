@@ -42,7 +42,7 @@ public class Hangman {
      * the correct amount of '_' in the correct letters list.
      * @param secretWord the word to be guessed
      */
-    void setSecretWord(String secretWord) {
+    protected void setSecretWord(String secretWord) {
 
     }
 
